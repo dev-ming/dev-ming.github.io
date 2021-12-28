@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-11T20:05:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jenna Log</title><subtitle>개발새발 개발블로그</subtitle><author><name>Jenna</name><email>ruaaa1307@gmail.com</email></author><entry><title type="html">리눅스 커널 - 시스템 구성정보 확인하기</title><link href="http://localhost:4000/linux/Linux-Kernel1/" rel="alternate" type="text/html" title="리눅스 커널 - 시스템 구성정보 확인하기" /><published>2021-12-09T00:00:00+09:00</published><updated>2021-12-09T00:00:00+09:00</updated><id>http://localhost:4000/linux/Linux%20Kernel1</id><content type="html" xml:base="http://localhost:4000/linux/Linux-Kernel1/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;공부한거 정리할겸 블로그 공부도 할겸 포스팅&lt;/p&gt;
+
+&lt;p&gt;내용은 책 &lt;strong&gt;리눅스 커널 이야기&lt;/strong&gt;를 보고 정리&lt;/p&gt;
+
+&lt;p&gt;밍은 사진도 넣고싶은데,,, 넘 어려워요 어캐 넣는지 몰겠어서 차후 수정 ㅎ&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;시스템-구성-정보-확인하기&quot;&gt;시스템 구성 정보 확인하기&lt;/h2&gt;
+&lt;h3 id=&quot;1-커널-정보-확인하기&quot;&gt;1. 커널 정보 확인하기&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;버전확인&quot;&gt;버전확인&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uname&lt;/code&gt; 명령어 사용&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;uname&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;커널 버전 정보 확인 가능!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Jenna</name><email>ruaaa1307@gmail.com</email></author><category term="Linux" /><summary type="html"></summary></entry><entry><title type="html">샘플</title><link href="http://localhost:4000/git/sample/" rel="alternate" type="text/html" title="샘플" /><published>2021-10-25T00:00:00+09:00</published><updated>2021-10-25T00:00:00+09:00</updated><id>http://localhost:4000/git/sample</id><content type="html" xml:base="http://localhost:4000/git/sample/">&lt;p&gt;카테고리 반영 잘 되는지 샘플 포스팅..!&lt;/p&gt;</content><author><name>Jenna</name><email>ruaaa1307@gmail.com</email></author><category term="Git" /><summary type="html">카테고리 반영 잘 되는지 샘플 포스팅..!</summary></entry><entry><title type="html">Markdown example post</title><link href="http://localhost:4000/etc/markdown-example/" rel="alternate" type="text/html" title="Markdown example post" /><published>2021-10-21T00:00:00+09:00</published><updated>2021-10-21T00:00:00+09:00</updated><id>http://localhost:4000/etc/markdown-example</id><content type="html" xml:base="http://localhost:4000/etc/markdown-example/">&lt;h3 id=&quot;️just-for-the-example-of-the-markdown️&quot;&gt;⭐️Just for the example of the markdown⭐️&lt;/h3&gt;
+
+&lt;p&gt;Nested and mixed lists are an interesting beast. It’s a corner case to make sure that&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lists within lists do not break the ordered list numbering order&lt;/li&gt;
+  &lt;li&gt;Your list styles go deep enough.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ordered--unordered--ordered&quot;&gt;Ordered – Unordered – Ordered&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ordered item&lt;/li&gt;
+  &lt;li&gt;ordered item
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;
+        &lt;ol&gt;
+          &lt;li&gt;ordered item&lt;/li&gt;
+          &lt;li&gt;ordered item&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ordered item&lt;/li&gt;
+  &lt;li&gt;ordered item&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;ordered--unordered--unordered&quot;&gt;Ordered – Unordered – Unordered&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;ordered item&lt;/li&gt;
+  &lt;li&gt;ordered item
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;unordered item&lt;/li&gt;
+          &lt;li&gt;unordered item&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ordered item&lt;/li&gt;
+  &lt;li&gt;ordered item&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;unordered--ordered--unordered&quot;&gt;Unordered – Ordered – Unordered&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;unordered item&lt;/li&gt;
+  &lt;li&gt;unordered item
+    &lt;ol&gt;
+      &lt;li&gt;ordered&lt;/li&gt;
+      &lt;li&gt;ordered
+        &lt;ul&gt;
+          &lt;li&gt;unordered item&lt;/li&gt;
+          &lt;li&gt;unordered item&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;unordered item&lt;/li&gt;
+  &lt;li&gt;unordered item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unordered--unordered--ordered&quot;&gt;Unordered – Unordered – Ordered&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;unordered item&lt;/li&gt;
+  &lt;li&gt;unordered item
+    &lt;ul&gt;
+      &lt;li&gt;unordered&lt;/li&gt;
+      &lt;li&gt;unordered
+        &lt;ol&gt;
+          &lt;li&gt;&lt;strong&gt;ordered item&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;ordered item&lt;/strong&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;unordered item&lt;/li&gt;
+  &lt;li&gt;unordered item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;task-lists&quot;&gt;Task Lists&lt;/h3&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Finish my changes&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Push my commits to GitHub&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Open a pull request&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jenna</name><email>ruaaa1307@gmail.com</email></author><category term="etc" /><category term="content" /><category term="css" /><category term="edge case" /><category term="lists" /><category term="markup" /><summary type="html">⭐️Just for the example of the markdown⭐️</summary></entry></feed>
